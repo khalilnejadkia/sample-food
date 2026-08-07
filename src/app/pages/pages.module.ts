@@ -1,10 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { DiscountComponent } from './discount/discount.component';
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    DiscountComponent
+  ],
   imports: [
     CommonModule
   ]
