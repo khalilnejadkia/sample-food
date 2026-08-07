@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { DiscountComponent } from './discount/discount.component';
+import { FrameModule } from '../frame/frame.module';
+
 
 
 
@@ -9,7 +11,11 @@ import { DiscountComponent } from './discount/discount.component';
     DiscountComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FrameModule
+  ],
+  exports: [
+    DiscountComponent
   ]
 })
 export class PagesModule { }
