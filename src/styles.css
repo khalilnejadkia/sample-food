@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/primeng.css";
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/themes/lara-light-purple/theme.css";
+@import "primeicons/primeicons.css";
+
+
+@font-face {
+    font-family: 'YekanFont';
+    
+    src: 
+    url(./assets/fonts/Yekan.ttf) format('truetype'),
+    url(./assets/fonts/Yekan.woff) format('woff');
+
+
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
